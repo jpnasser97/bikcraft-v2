@@ -1,0 +1,42 @@
+.intro-bg {
+  background-color: black;
+  box-shadow: inset 0px -120px #ffffff;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding: 0px 20px;
+  margin: 0 auto;
+}
+
+.intro-desc {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.intro-desc h1 {
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1.125;
+  margin-bottom: 32px;
+}
+
+.intro-desc span {
+  color: #ffbb00;
+}
+
+.intro-desc p {
+  color: #b2b2b2;
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.intro img {
+  height: 100%;
+  object-fit: cover;
+}
